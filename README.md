@@ -1,18 +1,19 @@
-# Maxim Tap
+# Maxim Homebrew Tap
 
-## How do I install these formulae?
+Install Ringbinder:
 
-`brew install maxim/tap/<formula>`
-
-Or `brew tap maxim/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "maxim/tap"
-brew "<formula>"
+```sh
+brew install maxim/tap/ringbinder
 ```
 
-## Documentation
+Upgrade an existing installation:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew upgrade ringbinder
+```
+
+See the [Ringbinder documentation](https://github.com/maxim/ringbinder) for configuration and usage.
+
+## Maintenance
+
+GoReleaser manages `Formula/ringbinder.rb` from the Ringbinder release workflow. Formula updates must pass this tap's macOS and Linux test-bot checks before GitHub auto-merges them. Do not edit the formula directly or enable Homebrew autobump or bottle publishing; the formula installs Ringbinder's upstream release archives.
