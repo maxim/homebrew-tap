@@ -5,7 +5,6 @@
 class Ringbinder < Formula
   desc "Scan, OCR, and search local PDFs and images"
   homepage "https://github.com/maxim/ringbinder"
-  version "0.1.0"
   license "MIT"
 
   on_macos do
