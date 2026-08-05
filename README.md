@@ -1,4 +1,4 @@
-# Maxim Homebrew Tap
+# Max's Homebrew Tap
 
 Install Ringbinder:
 
