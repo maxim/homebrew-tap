@@ -16,4 +16,6 @@ See the [Ringbinder documentation](https://github.com/maxim/ringbinder) for conf
 
 ## Maintenance
 
-GoReleaser manages `Formula/ringbinder.rb` from the Ringbinder release workflow. Formula updates must pass this tap's macOS and Linux test-bot checks before GitHub auto-merges them. Do not edit the formula directly or enable Homebrew autobump or bottle publishing; the formula installs Ringbinder's upstream release archives.
+`Formula/ringbinder.rb` compiles a pinned Ringbinder tag and commit from source. Go is a build-only dependency; the installed command has no runtime formula dependencies.
+
+The Ringbinder release workflow updates the tag and revision with Homebrew's `brew bump-formula-pr`. Formula pull requests must pass this tap's exact macOS and Linux test-bot checks before the workflow squash-merges them. Keep Homebrew autobump and bottle publishing disabled.
