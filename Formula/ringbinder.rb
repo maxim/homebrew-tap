@@ -5,11 +5,10 @@ class Ringbinder < Formula
   desc "Scan, OCR, and search local PDFs and images"
   homepage "https://github.com/maxim/ringbinder"
   url "https://github.com/maxim/ringbinder.git",
-      tag:      "v0.1.0",
-      revision: "f93d9d2012dbfc533ca8a06c13d218ab4494319a"
+      tag:      "v0.2.0",
+      revision: "0bcda8113ee70c297264d810a2a9097e08d2960b"
   license "MIT"
   # Force existing v0.1.0 installations through the one-time source-build transition.
-  revision 1
 
   depends_on "go" => :build
 
